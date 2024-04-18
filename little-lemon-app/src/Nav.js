@@ -6,7 +6,7 @@ const Nav = () => {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-  }
+  };
 
     return (
       <nav className={`navbar ${menuOpen ? "open" : ""}`}>
