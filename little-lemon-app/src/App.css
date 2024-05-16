@@ -124,7 +124,7 @@ button {
 }
 
 
-form, .comfirm{
+form, .confirm{
   padding: 10px 13%;
 }
 
@@ -155,7 +155,7 @@ input, label{
 
 }
 
-.comfirm span{
+.confirm span{
   color: blue;
 }
 
@@ -245,6 +245,24 @@ footer ul li{
   padding: 8px 0;
 }
 
+@media screen and (max-width: 1230px){
+
+  .banner-img {
+    height: 150px;
+    width: auto;
+  }
+
+}
+
+@media screen and (max-width: 1040px){
+
+  .banner-img {
+    display: none;
+  }
+
+}
+
+
 
 @media screen and (max-width: 768px){
   .menu-icon {
@@ -279,7 +297,7 @@ footer ul li{
     display: none;
   }
 
-  form, .comfirm{
+  form, .confirm{
     padding: 10px 8%;
   }
 
